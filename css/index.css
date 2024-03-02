@@ -4,6 +4,7 @@
     --lg-font: 'Kaisei Tokumin', serif;
     --sm-font: 'Poppins', sans-serif;
     --pink: #080808;
+    --bg-hover: #6c757d;
 }
 body{
     font-family: var(--sm-font);
@@ -25,7 +26,7 @@ button.btn{
 }
 
 button.btn.active-filter-btn {
-    background-color: #000000;
+    background-color: #0d6efd;
     color: #fff;
 }
 
@@ -43,7 +44,8 @@ button.btn.active-filter-btn {
     font-family: var(--lg-font);
 }
 .nav-link:hover{
-    color: var(--pink)!important;
+    color: #000;
+    background-color: var(--bg-hover);
 }
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
