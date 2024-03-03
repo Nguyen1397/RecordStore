@@ -67,13 +67,23 @@
     position: absolute;
     background-color: #fff;
     width: 552px;
-    bottom: 0;
+    height: 150px;
+    top: 300px;
     left: 50%;
     z-index: 100;
     text-align: center;
     padding-top: 40px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%); 
+}
+
+.see-more-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.see-more-btn:hover a {
+    color: #fff;
 }
     
 .breadcumb-area .bradcumbContent h2 {
