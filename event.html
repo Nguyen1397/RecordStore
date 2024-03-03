@@ -11,51 +11,56 @@
         <link rel="shortcut icon" type="image/jpg" href="img/OIG2.jpg">
     </head>
 <body>
-    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
-        <div class = "container">
-            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
-                <span class = "text-uppercase fw-lighter ms-2">Rhythm House</span>
-            </a>
-
-            <div class = "order-lg-2 nav-btns">
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-search"></i>
+    <header id="header">
+        <nav class = "navbar navbar-expand-lg bg-black py-2 fixed-top">
+            <div class = "container-fluid mt-3">
+                <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                    <img src="img/OIG2.jpg" alt="" style="width: 25px;">
+                    <span class = "text-uppercase text-white fw-lighter ms-2">Rhythm House</span>
+                </a>
+                <div class = "order-lg-3 nav-btns">
+                    <button type = "button" class = "btn position-relative btn-outline-secondary">
+                        <i class = "fa fa-shopping-cart"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                    </button>   
+                    <button type = "button" class = "btn position-relative btn-outline-secondary">
+                        <i class = "fa fa-user"></i>
+                    </button>
+                </div>
+                <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                    <span class = "navbar-toggler-icon"></span>
                 </button>
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-shopping-cart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
-                </button>
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-user"></i>
-                </button>
+                <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                    <ul class = "navbar-nav mx-auto text-center">
+                        <li class = "nav-item ">
+                            <a class = "nav-link text-uppercase text-white rounded-pill" href = "index.html">Home</a>
+                        </li>
+                        <li class = "nav-item ">
+                            <a class = "nav-link text-uppercase text-white rounded-pill" href = "product.html">Product</a>
+                        </li>
+                        <li class = "nav-item ">
+                            <a class = "nav-link text-uppercase text-white rounded-pill" href = "event.html">Event</a>
+                        </li>
+                        <li class = "nav-item ">
+                            <a class = "nav-link text-uppercase text-white rounded-pill" href = "#">Artist</a>
+                        </li>
+                        <li class = "nav-item ">
+                            <a class = "nav-link text-uppercase text-white rounded-pill" href = "#">About us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
-                <span class = "navbar-toggler-icon"></span>
+        </nav>
+        <div class="input-group rounded search-box">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <button class="input-group-text border-0" id="search-addon">
+              <i class="fas fa-search"></i>
             </button>
-            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
-                <ul class = "navbar-nav mx-auto text-center">
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html">Home</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "product.html">Product</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "event.html">Event</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#">Artist</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#">About us</a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </nav>
+    </header>
     
     <section class="breadcumb-area e-img bg-overlay" style="background-image: url(img/e-img/breadcumb3.jpg);">
-        <div class="bradcumbContent">
+        <div class="bradcumbContent text-black">
             <p>See what’s new</p>
             <h2>Events</h2>
         </div>
@@ -77,7 +82,7 @@
                                 <a href="#" class="event-place">VIP Sala</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -94,7 +99,7 @@
                                 <a href="#" class="event-place">Gold Arena</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -111,7 +116,7 @@
                                 <a href="#" class="event-place">Space Ibiza</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -128,7 +133,7 @@
                                 <a href="#" class="event-place">VIP Sala</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -145,7 +150,7 @@
                                 <a href="#" class="event-place">Gold Arena</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -162,7 +167,7 @@
                                 <a href="#" class="event-place">Space Ibiza</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -179,7 +184,7 @@
                                 <a href="#" class="event-place">VIP Sala</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -196,7 +201,7 @@
                                 <a href="#" class="event-place">Gold Arena</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -213,7 +218,7 @@
                                 <a href="#" class="event-place">Space Ibiza</a>
                                 <a href="#" class="event-date">Feb 25, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <button class="btn btn-primary see-more-btn"><a href="#">See Event</a></button>
                         </div>
                     </div>
                 </div>
@@ -222,7 +227,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="load-more-btn text-center mt-70">
-                        <a href="#" class="btn oneMusic-btn">Load More <i class="fa fa-angle-double-right"></i></a>
+                        <a href="#" class="btn btn-primary oneMusic-btn">Load More <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
