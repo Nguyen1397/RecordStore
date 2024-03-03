@@ -6,9 +6,10 @@
     --pink: #080808;
     --bg-hover: #6c757d;
 }
+
 body{
     font-family: var(--sm-font);
-    background-image: url(/img/background.jpg);
+    background-image: url(/img/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -37,6 +38,28 @@ button.btn.active-filter-btn {
 .navbar{
     -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#header {
+    height: 150px;
+    position: relative;
+}
+
+#header .search-box {
+    width: 20% ;
+    max-width: 280px;
+    float: right;
+    margin-right: 20px;
+}
+
+#header .search-box input {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.navbar-brand {
+    margin-left: 20px;
 }
 
 .navbar-brand span{
@@ -49,10 +72,13 @@ button.btn.active-filter-btn {
 }
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+    padding: 12px 30px;
+    font-size: 18px;
 }
 
-
-
+.navbar .nav-btns {
+    position: relative;
+}
 
  .title h2::before{
     position: absolute;
