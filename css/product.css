@@ -3,20 +3,17 @@
     padding: 0;
 }
 
-
-
-.page-top.wide.page-header-1 {
-    background: #F2F4F8;
-}
-
 .breadcrumb-area {
-    background-color: #e8e5e5;
+    background-color: #ff9f1a;
     height: 42px;
-    border-bottom: 1px solid #eb2615;
 }
 
 .breadcrumb-area ul li a{
     text-decoration: none;
+}
+
+.main-content {
+    margin-top: 30px;
 }
 
 .categories-title {
@@ -86,7 +83,7 @@
 }
 
 .product-quantity .quantity-selector {
-    height: 40px;
+    height: 30px;
 }
 
 .quantity-selector {
