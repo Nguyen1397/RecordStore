@@ -12,17 +12,21 @@
     </head>
 <body>
     <header id="header">
-        <nav class = "navbar navbar-expand-lg bg-black py-2">
-            <div class = "container-fluid mt-3">
+        <nav class = "navbar navbar-expand-lg bg-black py-4 fixed-top">
+            <div class = "container">
                 <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
                     <img src="img/OIG2.jpg" alt="" style="width: 25px;">
                     <span class = "text-uppercase text-white fw-lighter ms-2">Rhythm House</span>
                 </a>
-                <div class = "order-lg-3 nav-btns">
+    
+                <div class = "order-lg-2 nav-btns">
+                    <button type = "button" class = "btn position-relative btn-outline-secondary">
+                        <i class = "fa fa-search"></i>
+                    </button>
                     <button type = "button" class = "btn position-relative btn-outline-secondary">
                         <i class = "fa fa-shopping-cart"></i>
                         <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
-                    </button>   
+                    </button>
                     <button type = "button" class = "btn position-relative btn-outline-secondary">
                         <i class = "fa fa-user"></i>
                     </button>
@@ -32,36 +36,30 @@
                 </button>
                 <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
                     <ul class = "navbar-nav mx-auto text-center">
-                        <li class = "nav-item ">
+                        <li class = "nav-item px-2 py-2">
                             <a class = "nav-link text-uppercase text-white rounded-pill" href = "index.html">Home</a>
                         </li>
-                        <li class = "nav-item ">
+                        <li class = "nav-item px-2 py-2">
                             <a class = "nav-link text-uppercase text-white rounded-pill" href = "product.html">Product</a>
                         </li>
-                        <li class = "nav-item ">
+                        <li class = "nav-item px-2 py-2">
                             <a class = "nav-link text-uppercase text-white rounded-pill" href = "event.html">Event</a>
                         </li>
-                        <li class = "nav-item ">
+                        <li class = "nav-item px-2 py-2">
                             <a class = "nav-link text-uppercase text-white rounded-pill" href = "#">Artist</a>
                         </li>
-                        <li class = "nav-item ">
+                        <li class = "nav-item px-2 py-2">
                             <a class = "nav-link text-uppercase text-white rounded-pill" href = "#">About us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="input-group rounded search-box">
-            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-            <button class="input-group-text border-0" id="search-addon">
-              <i class="fas fa-search"></i>
-            </button>
-        </div>
     </header>
 
     <div class="main-content">
-        <div id = "slide" class = "carousel slide" data-bs-ride = "carousel" style = "padding-top: 90px;">
-            <div class = "  d-flex align-items-center">
+        <div id = "slide" class = "carousel slide" data-bs-ride = "carousel">
+            <div class = " d-flex align-items-center">
                 <section class="bander-slider">
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
                         <div class="carousel-inner">
